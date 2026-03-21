@@ -1,5 +1,8 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
+
+
 
 @Component({
   selector: 'app-root',
@@ -8,5 +11,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('MiPrimerAngular');
+  bienvenidos = "Hola Jhoan" ;
+
+  Estudiantes = ['Cuadernos','Gafas','Gorras','Lapiceros']
+
 }
+
+
