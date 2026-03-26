@@ -10,10 +10,10 @@ import { CommonModule } from '@angular/common';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
+export class App { /* crear módulos de JavaScript para exportar funciones, objetos o tipos de dato primitivos */
   bienvenidos = "Hola Jhoan" ;
 
-  Estudiantes = ['Cuadernos','Gafas','Gorras','Lapiceros']
+  Estudiantes = ['Cuadernos','Gafas','Gorras','Lapiceros'] /* arreglos */
 
 }
 
