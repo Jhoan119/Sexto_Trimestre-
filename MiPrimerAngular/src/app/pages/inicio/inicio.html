@@ -1,1 +1,25 @@
-<p>inicio works!</p>
+<h1>Hola este es mi primer proyecto</h1>
+<h2>bienvenidos ADSO</h2>
+
+<h2>{{bienvenidos}}</h2> <!--Interpoblacion de variables  -->
+
+<ul> <!-- lista ordenada -->
+  <li>Cuadernos</li>
+  <li>Gafas</li>
+  <li>Gorras</li>
+  <li>Lapiceros</li>
+</ul>
+
+<br>
+<h2>Antigua Sintaxis</h2>
+
+
+<ul>
+  <li *ngFor="let objeto of Estudiantes">{{objeto}}</li> 
+</ul>
+
+<ul>
+  @for (objeto of Estudiantes; track objeto){
+    <li>{{objeto}}</li>
+  }
+</ul>

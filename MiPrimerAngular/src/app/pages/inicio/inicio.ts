@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class Inicio {
 
+    bienvenidos = "Hola Jhoan" ;
+
+    Estudiantes = ['Cuadernos','Gafas','Gorras','Lapiceros'] /* arreglos */
+
 }
