@@ -7,6 +7,16 @@ export const routes: Routes = [
     {
         path: 'inicio',
         component: Inicio
+    }, 
+
+    {
+        path: 'ejercicio',
+        component: Ejercicio
+    },
+
+    {
+        path: 'contacto',
+        component: Contacto
     }
 
 

@@ -13,3 +13,5 @@ export class Inicio {
     Estudiantes = ['Cuadernos','Gafas','Gorras','Lapiceros'] /* arreglos */
 
 }
+
+
